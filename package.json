@@ -1,0 +1,24 @@
+{
+  "name": "automa-o-de-api-graphql-e-pactumjs",
+  "version": "1.0.0",
+  "description": "Automaçaõ com graphql e pactumjs",
+  "homepage": "https://github.com/gnasxd/Automa-o-de-API-GraphQl-e-Pactumjs#readme",
+  "bugs": {
+    "url": "https://github.com/gnasxd/Automa-o-de-API-GraphQl-e-Pactumjs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnasxd/Automa-o-de-API-GraphQl-e-Pactumjs.git"
+  },
+  "license": "ISC",
+  "author": "Guilherme Augusto",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "mocha": "^11.7.4",
+    "pactum": "^3.8.0"
+  }
+}
