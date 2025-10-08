@@ -1,7 +1,7 @@
 const { spec } = require('pactum');
 
-it('Deve adicionar uma nova categoria no site ebac', () => {
-   awaitspec()
+it('Deve adicionar uma nova categoria no site ebac', async () => {
+   await spec()
         .post('http://lojaebac.ebaconline.art.br/graphql')
         .withGraphQLQuery(`
 mutation AddCategory($name: String, $photo: String) {
