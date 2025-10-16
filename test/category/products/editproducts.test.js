@@ -14,14 +14,14 @@ it('Editar um produto adicionado ', async () => {
   }
 }`)
         .withGraphQLVariables({
-            "editProductId": null,
-            "name": "livro infantis 2",
-            "categories": [
+            editProductId: null,
+            name: "livro infantis 2",
+            categories: [
                 {
-                    "name": "livros infantis"
+                    name: "livros infantis"
                 }
             ],
-            "description": "um livro infantil sobre patos",
-            "price": 300
+            description: "um livro infantil sobre patos",
+            price: 300
         })
 });

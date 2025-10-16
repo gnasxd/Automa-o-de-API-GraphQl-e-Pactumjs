@@ -14,14 +14,14 @@ it('Deve adicionar um produto', async () => {
   }
 }`)
         .withGraphQLVariables({
-            "name": "livro 2",
-            "categories": [
+            name: "livro 2",
+            categories: [
                 {
-                    "name": "livros infantis"
+                    name: "livros infantis"
                 }
             ],
-            "description": "um livro infantil",
-            "price": 350
+            description: "um livro infantil",
+            price: 350
         })
         .expectStatus(200)
 });
