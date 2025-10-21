@@ -9,7 +9,7 @@ it('Deve deletar uma categoria existente', async () => {
     name
   }
 }`)
-        .withGraphQLVariable({
+        .withGraphQLVariables({
             deleteCategoryId: "1",
             nome: "livros infantis de ratinho"
         })

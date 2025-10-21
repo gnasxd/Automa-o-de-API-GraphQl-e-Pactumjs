@@ -1,5 +1,5 @@
 const { spec } = require('pactum');
-const { setDefaultExpectStatus } = require('pactum/src/exports/response');
+
 
 it('Deve deletar um produto', async () => {
     await spec()
