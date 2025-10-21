@@ -5,7 +5,6 @@ it('Deve deletar uma categoria existente', async () => {
         .post('http://lojaebac.ebaconline.art.br/graphql')
         .withGraphQLQuery(`mutation DeleteCategory($deleteCategoryId: ID!) {
   deleteCategory(id: $deleteCategoryId) {
-    id
     name
   }
 }`)
