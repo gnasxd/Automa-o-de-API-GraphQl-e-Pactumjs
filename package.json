@@ -15,10 +15,9 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test: mocha": "mocha ./test/**/*.test.js",
-    "test: gql": "mocha ./test/graphicql/**/*.test.js",
-    "start": "node index.js",
-    "test": "jest"
+    "test:": "mocha ./test/**/*.test.js",
+    "test: gql": "mocha ./test/graphicql/**/*.test.js"
+   
   },
   "devDependencies": {
     "mocha": "^11.7.4",

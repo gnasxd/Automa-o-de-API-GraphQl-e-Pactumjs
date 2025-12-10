@@ -9,9 +9,8 @@ RUN apt-get update && apt-get -y install google-chrome-stable \
 	&& rm -rf /var/lib/apt/lists/* /var/cache/apt/* \
 	&& sed -i 's/"$HERE\/chrome"/"$HERE\/chrome" --no-sandbox/g' /opt/google/chrome/google-chrome
 
-WORKDIR /repositorio/automação_em_api_com_graphql_e_pactumjs/Automa-o-de-API-GraphQl-e-Pactumjs/
-
-COPY . /repositorio/automação_em_api_com_graphql_e_pactumjs/Automa-o-de-API-GraphQl-e-Pactumjs/
+WORKDIR /app
+COPY . .
 
 RUN npm install
 
