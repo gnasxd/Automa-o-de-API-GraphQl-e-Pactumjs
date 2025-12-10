@@ -1,4 +1,4 @@
-FROM node:latest
+ FROM node:latest
 
  RUN apt-get update
 RUN apt-get install -y x11vnc xvfb fluxbox wget wmctrl
@@ -10,6 +10,7 @@ RUN apt-get update && apt-get -y install google-chrome-stable \
 	&& sed -i 's/"$HERE\/chrome"/"$HERE\/chrome" --no-sandbox/g' /opt/google/chrome/google-chrome
 
 WORKDIR /app
+
 COPY . .
 
 RUN npm install

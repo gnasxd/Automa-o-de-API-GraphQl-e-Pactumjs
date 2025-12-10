@@ -15,8 +15,10 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test:": "mocha ./test/**/*.test.js",
-    "test: gql": "mocha ./test/graphicql/**/*.test.js"
+    "test: mocha:": "mocha ./test/**/*.test.js",
+    "test: gql": "mocha ./test/graphicql/**/*.test.js",
+    "start": "node index.js",
+    "test": "mocha ./test/**/*.test.js"
    
   },
   "devDependencies": {
